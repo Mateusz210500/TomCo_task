@@ -104,3 +104,15 @@ header {
 .text__right {
     margin-right: 200px;
 }
+
+.sec__2 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec__2 h2 {
+    margin-bottom: 10px;
+}
