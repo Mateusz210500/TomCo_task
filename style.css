@@ -16,19 +16,19 @@ h2 {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 2.8rem;
     color: hsl(210, 10%, 33%);
+
 }
 
 h3 {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 2.6rem;
+    font-size: 1.8rem;
     color: hsl(210, 10%, 33%);
 }
 
 p {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: hsl(201, 11%, 66%);
-
 }
 
 .btn {
@@ -63,4 +63,44 @@ p {
 .btn--mac:hover {
     box-shadow: 6px 6px 17px hsl(233, 96%, 78%);
     background-color: hsl(233, 100%, 75%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.btn__main {
+    margin-top: 70px;
+    margin-bottom: 190px;
+}
+
+.txt__main {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.sec__1{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.img__left {
+    margin-left: -90px;
+    margin-right: 80px
+}
+
+.text__right {
+    margin-right: 200px;
 }
