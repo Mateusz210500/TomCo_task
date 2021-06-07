@@ -1,0 +1,66 @@
+body {
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-size: 100%;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 3rem;
+    color: hsl(210, 10%, 33%);
+}
+
+h2 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 2.8rem;
+    color: hsl(210, 10%, 33%);
+}
+
+h3 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 2.6rem;
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.4rem;
+    color: hsl(201, 11%, 66%);
+
+}
+
+.btn {
+    /* background-color: hsl(171, 66%, 44%); */
+    border: none;
+    color: white;
+    padding: 15px 32px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 22px;
+    box-shadow: 6px 6px 15px rgb(194, 194, 194);
+}
+
+.btn--ios {
+    background-color: hsl(171, 66%, 44%);
+
+}
+
+.btn--mac {
+    background-color: hsl(233, 100%, 69%);
+
+}
+
+.btn--ios:hover {
+    box-shadow: 6px 6px 17px hsl(171, 57%, 63%);
+    background-color: hsl(171, 58%, 49%);
+}
+
+.btn--mac:hover {
+    box-shadow: 6px 6px 17px hsl(233, 96%, 78%);
+    background-color: hsl(233, 100%, 75%);
+}
